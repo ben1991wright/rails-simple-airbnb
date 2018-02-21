@@ -1,0 +1,39 @@
+.flat-card {
+  margin-bottom: 20px;
+}
+
+.card-content {
+  border: 1px solid rgb(230,230,230);
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+  background-color: white;
+  height: 200px;
+  padding: 20px;
+}
+
+.card-link {
+  background-color: rgb(230,230,230);
+  border-radius: 0 0 2px 2px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  a {
+    font-size: 12px;
+    transition: ease 0.5s;
+    text-decoration: none;
+  }
+}
+
+.delete {
+  color: rgb(221, 53, 19);
+  &:hover {
+    color: rgb(183, 44, 16);
+  }
+}
+
+.edit {
+  color: rgb(237, 205, 28);
+  &:hover {
+    color: rgb(211, 179, 21);
+  }
+}
